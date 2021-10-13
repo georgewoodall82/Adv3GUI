@@ -35,7 +35,7 @@ namespace Adventurer3
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //Second();
+            Second();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -10,3 +10,13 @@ C:\Users\georg\source\repos\Adventurer3\Adventurer3\bin\Debug\Wilsonhut.Chunks.d
 C:\Users\georg\source\repos\Adventurer3\Adventurer3\obj\Debug\Adventurer3.csproj.AssemblyReference.cache
 C:\Users\georg\source\repos\Adventurer3\Adventurer3\obj\Debug\Adventurer3.csproj.CoreCompileInputs.cache
 C:\Users\georg\source\repos\Adventurer3\Adventurer3\obj\Debug\Adventurer3.csproj.CopyComplete
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.csproj.AssemblyReference.cache
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.Form1.resources
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.Properties.Resources.resources
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.csproj.GenerateResource.cache
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.exe
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\obj\Debug\Adventurer3.pdb
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\bin\Debug\Adventurer3.exe.config
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\bin\Debug\Adventurer3.exe
+C:\Users\georg\source\repos\Adventurer3\Adv3GUI\Adventurer3\bin\Debug\Adventurer3.pdb
