@@ -6,7 +6,7 @@ A program to send G-code commands to an adventurer 3 (If you have another printe
 
 2. Download all the files and extract them into the same folder. Alternatively, download as a zip and extract, or use git clone.
 
-3. In a terminal (Linux Distros/Mac) or Command Prompt (Windows) navigate the the Folder you downloaded the Files into and run `python3 Adv3GUI` or `python Adv3GUI` if that doesn't work.
+3. In a terminal (Linux Distros/Mac) or Command Prompt (Windows) navigate the the Folder you downloaded the Files into and then run `python3 Adv3GUI` or `python Adv3GUI` if that doesn't work.
 
 4. You should see the GUI and that means you are Done! You are free to use the API/Module for any projects.
 
