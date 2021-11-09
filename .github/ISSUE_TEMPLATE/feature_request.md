@@ -22,3 +22,4 @@ about: Suggest an idea for Adv3GUI
 
 
 <!-- LEAVE THIS LINE AS-IS AND DON'T DELETE IT, OTHERWISE THE FEATURE REQUEST WILL BE CLOSED AUTOMATICALLY. -->
+<!-- All of this gray text will not show up in the final Feature Request. -->
