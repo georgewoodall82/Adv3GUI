@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Issue Tracker
+    url: https://github.com/georgewoodall82/Adv3GUI/issues
+    about: Please create bug reports in the dedicated issue tracker.
+  - name: Troubleshooting Guide
+    url: https://github.com/georgewoodall82/Adv3GUI/
+    about: Please view the Troubleshooting Guide first before creating an issue. (Scroll Down)
