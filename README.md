@@ -1,5 +1,5 @@
 # Adv3GUI
-A program to send G-code commands to an adventurer 3 (If you have another printer you can open an issue and I can work on support for that printer.
+A program to send G-code commands to an adventurer 3 (If you have another printer you try this anyway as it has a high chance of working. If it doesn't work, open an Issue.
 
 # Installation
 1. Install Python 3 via https://www.python.org/ or if you are on a Linux distro you can use your preferred package installer.
