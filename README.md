@@ -17,6 +17,8 @@ A program to send G-code commands to an adventurer 3 (If you have another printe
 
 3. If the SendFile() function in the Adv3Api does not work, this is normal. It is unfinished and probably wont be fixed anytime soon as I have no idea why it isn't working. But if you know why you can open an issue or pull request.
 
-4. If `G28` (Home) doesn't work, this is normal. This is a problem with the printer and you will see that you cannot Home even using the FlashPrint software control panel.
+4. If `G28` (Home) doesn't work, this is normal. This is a problem with the printer and you will see that you cannot Home even using the FlashPrint software control panel. (atleast from my experience)
 
-5. If this does not solve your problem, just open an issue.
+5. Make sure you are on the same network connection as your printer
+
+6. If this does not solve your problem, just open an issue.
