@@ -1,7 +1,7 @@
 # Adv3GUI
-A program to send G-code commands to an adventurer 3 (If you have another printer you try this anyway as it has a high chance of working.
+A program to send G-code commands to a flashforge printer (I tested this with an adventurer 3, if you have another printer you try this anyway as it has a high chance of working.
 
-# Confirmed Printer Support List:
+# Tested Printers:
 - Adventurer 3
 - Creator 4
 
