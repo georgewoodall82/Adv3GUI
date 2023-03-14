@@ -84,7 +84,7 @@ AutoScrollCheck.grid(row=3, column=2)
 
 root.grid_columnconfigure(0, weight=1)
 
-
+print("Adv3GUI Started!")
 
 while True:
     try:
