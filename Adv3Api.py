@@ -4,7 +4,9 @@ import socket
 
 socket1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-def Connect(ip: str, port=8899):
+PORT = 8899
+
+def Connect(ip: str, port=PORT):
     #Connect to the printer at the given ip and port.
     #Returns a socket object.
     socket1.connect((ip, port))
