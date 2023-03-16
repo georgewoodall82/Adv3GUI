@@ -30,6 +30,8 @@ def SendFile(filename):
     #Send the given file to the printer.
     #Returns nothing.
     #This doesnt work and I have no clue why.
+    
+    print("this doesnt work")
 
     SendGCode("M28 145119 0:/user/apitest.gx")
 
