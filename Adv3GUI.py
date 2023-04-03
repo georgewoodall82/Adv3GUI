@@ -44,7 +44,9 @@ def sendGCode(gcode):
     output("Sent: " + gcode)
     output("Output:")
     output(Adv3Api.SendGCode(gcode))
+    
 
+print("Adv3GUI Starting")
 root = tk.Tk()
 root.title("Adv3 GUI")
 root.geometry("600x470")
