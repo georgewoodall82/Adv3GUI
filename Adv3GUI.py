@@ -1,15 +1,4 @@
-def comment():
-
-    WINDOWS_LINE_ENDING = '\r\n'
-    UNIX_LINE_ENDING = '\n'
-
-    with open("apitestcopy.txt", "w", errors="ignore") as fc:
-        with open("apitest.gx", errors="ignore") as f:
-            for line in f.readlines():
-                fc.writelines(line)
-
-
-    exit()
+exit()
 import Adv3Api
 import tkinter as tk
 import tkinter.scrolledtext
@@ -96,3 +85,4 @@ while True:
     except Exception as e:
         if e.args[0].find('application has been destroyed') != -1 or e.args[0] == 'invalid command name ".!frame.!scrolledtext"':
             break
+
