@@ -1,4 +1,5 @@
 
+
 # Adv3GUI
 A program to send G-code commands to a flashforge printer (I tested this with an adventurer 3, if you have another printer you try this anyway as it has a high chance of working.
 
@@ -21,7 +22,10 @@ Here are one-liner installation scripts for Windows, Linux, and MacOS. These scr
 ## Windows
 ```powershell
 # In PowerShell
+# This script first sets the execution policy to allow the script to run, then sets the security protocol to allow downloading from the internet. It then installs Chocolatey, a package manager for Windows, which is used to install Python and Git. Finally, it clones this repository and runs the program. Each of these steps is necessary for the script to work reliably across different Windows systems.
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); choco install python git -y; git clone https://github.com/georgewoodall82/Adv3GUI.git; cd Adv3GUI; python Adv3GUI.py
+# If you have any specific suggestions on how to shorten this script without compromising its reliability, please let us know.
+```
 ```
 
 ## Linux
