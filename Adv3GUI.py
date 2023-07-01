@@ -1,4 +1,3 @@
-exit()
 import Adv3Api
 import tkinter as tk
 import tkinter.scrolledtext
