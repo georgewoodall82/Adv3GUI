@@ -21,6 +21,12 @@ def SendGCode(gcode):
 
     return SendTCP(gcode)
 
+def HomePrinter():
+    #Sends the GCode command for homing the printer.
+    #Returns the response from the printer.
+    
+    return SendGCode("G28")
+
 def SendTCP(data):
     #Send the given data to the printer.
     #Returns the response from the printer.

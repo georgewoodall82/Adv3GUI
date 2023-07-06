@@ -13,7 +13,6 @@ def output(text):
 
 def connect(ip):
     socket1 = Adv3Api.Connect(ip)
-    #when connected, print the currently connected ip
     if socket1.getpeername()[0] == ip:
         output("Connected to " + socket1.getpeername()[0])
         ipBox.destroy()
@@ -21,6 +20,7 @@ def connect(ip):
         OutputLabel.grid_configure(row=0, sticky=tk.S)
         OutputBox.grid_configure(row=1)
         GCodeSend.grid_configure(row=2)
+        HomeButton.grid_configure(row=3)
         AutoScrollCheck.grid_configure(row=2)
         GCodeSend.grid_configure(row=2)
         GCodeBox.grid_configure(row=2)
@@ -32,15 +32,17 @@ def sendGCode(gcode):
     output("Sent: " + gcode)
     output("Output:")
     output(Adv3Api.SendGCode(gcode))
-    
+
+def homePrinter():
+    output("Homing printer...")
+    output(Adv3Api.HomePrinter())
 
 print("Adv3GUI Starting")
+
 root = tk.Tk()
 root.title("Adv3 GUI")
 root.geometry("600x470")
-# set root['bg'] to a dark mode color
 root.configure(background='#2f2f2f')
-
 
 root.columnconfigure(3, weight=1)
 
@@ -67,10 +69,13 @@ GCodeBox.grid(row=3, column=0)
 GCodeSend = tk.Button(root, text="Send", bg='#2f2f2f', fg='#ffffff', command=lambda: sendGCode(GCodeBox.get()))
 GCodeSend.grid(row=3, column=1)
 
+HomeButton = tk.Button(root, text="Home", bg='#2f2f2f', fg='#ffffff', command=homePrinter)
+HomeButton.grid(row=3, column=2)
+
 cb = tk.IntVar()
 
 AutoScrollCheck = tk.Checkbutton(root, text="Auto Scroll", variable=cb)
-AutoScrollCheck.grid(row=3, column=2)
+AutoScrollCheck.grid(row=3, column=3)
 
 root.grid_columnconfigure(0, weight=1)
 
@@ -84,4 +89,3 @@ while True:
     except Exception as e:
         if e.args[0].find('application has been destroyed') != -1 or e.args[0] == 'invalid command name ".!frame.!scrolledtext"':
             break
-
